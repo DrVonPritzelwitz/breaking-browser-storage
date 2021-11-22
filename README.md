@@ -10,27 +10,27 @@ What kind of storage exist? What are their properties and limitations? And how d
 
 ## Assignment:
 
-- Test what happens when you exceed loacal-storage storage limits.
+- Test what happens when you exceed local-storage storage limits.
 - Test if the behavior is the same in multiple browsers.
 - Research online: Specific properties of LocalStorage, SessionStorage, Cookies
 
 ### How to:
 
-Use the given codebase and add the following behavior:
+Getting started:
 - Clone the repository to your local machine using VScode (or some other gitClient)
 - Use VScode to navigate to the repository on your machine
-- Open a terminal in vsCode and 
+- Open a terminal in VScode and 
 - run: npm install
 - run: npm start
 
-Make the following changes:
+Use the given codebase and add the following behavior:
 - Convert the selected image into a base64 string.
 - Write a loop that will add the base64 image string to local storage as many times as needed to exceed the storage limits.
 
 ### Deliver:
 
-- **Working code**: Make sure that your code works then push the results.
-- **Research result**: Add the restults of your online research in the file: [browser-storage-info.md](/browser-storage-info)
+- **Working code**: Make sure that your code works then push the results to the main branch.
+- **Research result**: Add the results of your online research in the file: [browser-storage-info.md](/browser-storage-info) (don't forget to commit and push !!)
 
 
 ## Hints and Tips:

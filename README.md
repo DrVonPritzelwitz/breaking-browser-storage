@@ -17,6 +17,13 @@ What kind of storage exist? What are their properties and limitations? And how d
 ### How to:
 
 Use the given codebase and add the following behavior:
+- Clone the repository to your local machine using VScode (or some other gitClient)
+- Use VScode to navigate to the repository on your machine
+- Open a terminal in vsCode and 
+- run: npm install
+- run: npm start
+
+Make the following changes:
 - Convert the selected image into a base64 string.
 - Write a loop that will add the base64 image string to local storage as many times as needed to exceed the storage limits.
 
@@ -24,6 +31,19 @@ Use the given codebase and add the following behavior:
 
 - **Working code**: Make sure that your code works then push the results.
 - **Research result**: Add the restults of your online research in the file: [browser-storage-info.md](/browser-storage-info)
+
+
+## Hints and Tips:
+To create this assignment I used the sources below:
+
+- [Blowing up LocalStorage](https://www.raymondcamden.com/2015/04/14/blowing-up-localstorage-or-what-happens-when-you-exceed-quota)
+- [Converting image to base64](https://stackoverflow.com/questions/51533584/converting-an-image-to-binary-in-javascript-using-base64)
+- [Upload image in React JS](https://stackoverflow.com/questions/43692479/how-to-upload-an-image-in-react-js)
+
+Usefull articals about browser storage:
+
+- [Different types of Browser storage](https://betterprogramming.pub/the-different-types-of-browser-storage-82b918cb3cf8)
+- [Different types of Browser storage](https://medium.com/geekculture/localstorage-is-cool-but-be-mindful-how-you-use-it-2fedf02d37e4)
 
 
 
